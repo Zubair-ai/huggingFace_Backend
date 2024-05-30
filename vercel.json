@@ -1,5 +1,7 @@
-{
-    "version": 2,
-    "builds": [{ "src": "/app.js", "use": "@now/node" }],
-    "routes": [{ "handle": "vercel", "src": "/(.*)" }]
-  }
+{   "version": 2,
+    "rewrites":[
+        {
+            "source":"/app.js", "destination":"/"
+        }
+    ]
+}
