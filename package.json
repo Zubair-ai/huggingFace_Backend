@@ -7,7 +7,6 @@
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
     "start": "node app.js",
-    "build": "run build",
     "lint": "./node_modules/.bin/eslint --fix"
   },
   "keywords": [],
