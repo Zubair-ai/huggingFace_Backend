@@ -15,7 +15,7 @@ app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,OPTIONS");
   res.header(
     "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept, x-token, token"
+    "Origin, X-Requested-With, Content-Type, Accept, x-token, token, X-CSRF-Token, Accept-Version, Content-Length, Content-MD5, Date, X-Api-Version"
   );
   if (req.method === "OPTIONS") {
     res.end();
